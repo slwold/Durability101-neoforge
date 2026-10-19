@@ -1,0 +1,30 @@
+# ---- 构建产物与缓存 ----
+**/.gradle/
+**/build/
+**/run/
+Build/
+
+# ---- Gradle Wrapper 必须提交，防止被上面的规则误伤 ----
+!gradle/wrapper/gradle-wrapper.jar
+!**/gradle/wrapper/gradle-wrapper.jar
+
+# ---- IDE ----
+**/.idea/
+**/.vscode/
+*.iml
+
+# ---- 本机构建日志与上传指南（非工程内容，不上传）----
+*.log
+build-run.log
+GITHUB_UPLOAD_GUIDE.md
+
+# ---- DuMate 工具目录（非工程内容）----
+.dumate/
+.workbuddy/
+
+# ---- 本次不发布的模组 ----
+RepairCost101-neoforge-1.21.1/
+
+# ---- 系统垃圾 ----
+.DS_Store
+Thumbs.db

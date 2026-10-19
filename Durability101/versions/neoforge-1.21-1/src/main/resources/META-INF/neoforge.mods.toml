@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="durability101"
+version="0.0.5"
+displayName="Durability101"
+description="A rewrite of the original Durability101 mod"
+authors="ShayBox, RedBanHammer"
+
+[[dependencies.durability101]]
+modId="neoforge"
+type="required"
+versionRange="[21.1,)"
+
+[[dependencies.durability101]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,)"
+
+[[dependencies.durability101]]
+modId="java"
+type="required"
+versionRange="[21,)"

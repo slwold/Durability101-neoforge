@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.shaybox.repaircost101",
+  "refmap": "repaircost101.refmap.json",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "RepairCost101Mixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

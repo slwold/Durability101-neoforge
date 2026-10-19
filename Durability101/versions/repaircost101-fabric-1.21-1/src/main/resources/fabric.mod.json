@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "repaircost101",
+  "version": "${version}",
+  "name": "${mod_name}",
+  "description": "${mod_description}",
+  "authors": ${mod_authors},
+  "license": "${mod_license}",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.shaybox.repaircost101.RepairCost101"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "repaircost101.mixins.json",
+      "environment": "client"
+    }
+  ]
+}

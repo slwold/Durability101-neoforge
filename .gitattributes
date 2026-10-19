@@ -1,0 +1,7 @@
+# 统一行尾，避免 Windows 克隆后 gradlew / *.sh 因 CRLF 报 bad interpreter
+*           text=auto eol=lf
+*.sh        text eol=lf
+gradlew     text eol=lf
+*.bat       text eol=crlf
+*.jar       binary
+*.png       binary

@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="repaircost101"
+version="0.0.1"
+displayName="RepairCost101"
+description="Shows an item's anvil repair cost directly on its icon."
+authors="ShayBox"
+
+[[dependencies.repaircost101]]
+modId="neoforge"
+type="required"
+versionRange="[21.1,)"
+
+[[dependencies.repaircost101]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,)"
+
+[[dependencies.repaircost101]]
+modId="java"
+type="required"
+versionRange="[21,)"

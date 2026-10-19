@@ -1,0 +1,9 @@
+**/.gradle
+**/.idea
+**/.vscode
+**/build
+**/run
+Build/
+.gradle/
+build/
+run/
